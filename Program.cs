@@ -35,7 +35,7 @@ namespace AssignmentRainbowSchoolOops
 
                     students.Add(student);
                 }
-
+                Console.WriteLine("Students Details as follow");
                 foreach (Student student in students)
                 {
                     student.Display();
@@ -64,7 +64,7 @@ namespace AssignmentRainbowSchoolOops
                     subjects.Add(subject);
                 }
 
-
+                Console.WriteLine("Teachers Details as follws");
                 foreach (Subject subject in subjects)
                 {
 
